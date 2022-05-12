@@ -1,0 +1,30 @@
+{
+    "name": "papalardo/filament-rating-input",
+    "description": "Rating input for filament built with laravel",
+    "require": {
+        "php": "^8.0",
+        "filament/filament": "^2.9",
+        "spatie/laravel-package-tools": "^1.10"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Papalardo\\FilamentRatingInput\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pablo Papalardo",
+            "email": "pablopapalardo2@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Papalardo\\FilamentRatingInput\\FilamentRatingInputProvider"
+            ]
+        }
+    },
+    "prefer-stable": true
+}
