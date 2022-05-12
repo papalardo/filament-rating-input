@@ -24,5 +24,5 @@ RatingInput::make('love')
     ->align('center') // start,center,end [default = start]
     ->maxValue(10) // max items for display [default = 5]
     ->color('red-800') // tailwind variant color [default = yellow-400]
-    ->icon('heart'), // icon name [heroicon] [default = start]
+    ->icon('heart'), // icon name [heroicon] [default = star]
 ```
